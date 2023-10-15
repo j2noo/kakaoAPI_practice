@@ -1,13 +1,14 @@
 import { BrowserRouter, Route } from "react-router-dom";
 import { Routes } from "react-router-dom";
 import KakaoLogin from "./KakaoLogin";
+import Oauth from "./Oauth";
 
 const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<KakaoLogin/>} />
-        <Route path="/oauth" element={<div>oauth</div>} />
+        <Route path="/" element={<KakaoLogin />} />
+        <Route path="/oauth" element={<Oauth />} />
         {/* <Route path="/signup" element={<SignupPage />}>
           <Route path="agreement" element={<Agreement />} />
           <Route path="information" element={<Information />} />
