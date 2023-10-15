@@ -9,6 +9,7 @@ const Router = () => {
       <Routes>
         <Route path="/" element={<KakaoLogin />} />
         <Route path="/oauth" element={<Oauth />} />
+        <Route path="/write" element={<div>Write!</div>} />
         {/* <Route path="/signup" element={<SignupPage />}>
           <Route path="agreement" element={<Agreement />} />
           <Route path="information" element={<Information />} />

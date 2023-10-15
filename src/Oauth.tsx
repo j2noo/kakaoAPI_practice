@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect } from "react";
-import { kakao } from "./KakaoLogin";
-import api from "./api";
+// import { kakao } from "./KakaoLogin";
+// import api from "./api";
 
 const Oauth = () => {
   useEffect(() => {
@@ -31,7 +31,7 @@ const Oauth = () => {
         console.log("getTokencomplete", response);
 
         //받아온 토큰을 setAcessToken하기
-        kakao.Auth.setAccessToken(response.data.access_token);
+        // kakao.Auth.setAccessToken(response.data.access_token);
 
         //?
         // kakao.API.request({

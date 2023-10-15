@@ -1,3 +1,5 @@
+import KakaoMessageSend from "./KakaoMessageSend";
+
 export const kakao = (window as any).Kakao;
 
 const KakaoLogin = () => {
@@ -24,6 +26,8 @@ const KakaoLogin = () => {
           })
         }
       ></img>
+      <hr/>
+      <KakaoMessageSend /> 
     </>
   );
 };
