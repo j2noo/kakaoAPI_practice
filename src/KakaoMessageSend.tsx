@@ -13,7 +13,7 @@ const KakaoMessageSend = () => {
         name: "진우",
       },
       serverCallbackArgs: {
-        isSendSuccess: "yes", // 사용자 정의 파라미터 설정
+        isSendSuccess: "no", // 사용자 정의 파라미터 설정
       },
     });
   };
